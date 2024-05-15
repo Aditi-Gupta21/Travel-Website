@@ -9,14 +9,6 @@
     font-style: normal;
 }
 
-.SignUp {
-    display: none;
-}
-
-.SignUp .show {
-    display: block;
-}
-
 .NavbarItems {
     background-color: #fff;
     display: flex;
@@ -56,11 +48,13 @@
     color: #01959a;
     position: relative;
     top: .8rem;
+    left: 7px;
+    letter-spacing: 2px;
 }
 
 .navbar-logo:hover {
     color: #020202;
-    transition: 1s all ease-in-out;
+    transition: .2s all ease;
 }
 
 .nav-menu {

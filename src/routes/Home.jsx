@@ -1,8 +1,13 @@
+import React from "react";
 import Destination from "../component/Destination";
 import Hero from "../component/Hero";
 import Navbar from "../component/Navbar";
 import Trip from "../component/Trip";
 import Footer from "../component/Footer";
+// Image import---------------
+import trip1 from "../assets/5.jpg"
+import trip2 from "../assets/9.jpg"
+import trip3 from "../assets/7.jpg"
 
 function Home() {
     return (
@@ -14,7 +19,16 @@ function Home() {
                 text="Choose your favourite destination"
             />
             <Destination />
-            <Trip />
+            <Trip image1={trip1}
+                heading1="Trip to Odisha"
+                para1="On the beach in Odisha from sunrise to sunset feel like The Little Prince sitting here, watching the sunset from the beach on the Bay of Bengal in Odisha; and tomorrow morning I will be able to see the sunrise from the same beach. It’s a strange twist of geography that you can see the sun rise and set on the same beach in Odisha."
+                image2={trip2}
+                heading2="Trip to Banaras"
+                para2="On the beach in Odisha from sunrise to sunset feel like The Little Prince sitting here, watching the sunset from the beach on the Bay of Bengal in Odisha; and tomorrow morning I will be able to see the sunrise from the same beach. It’s a strange twist of geography that you can see the sun rise and set on the same beach in Odisha."
+                image3={trip3}
+                heading3="Trip to Rajasthan"
+                para3="On the beach in Odisha from sunrise to sunset feel like The Little Prince sitting here, watching the sunset from the beach on the Bay of Bengal in Odisha; and tomorrow morning I will be able to see the sunrise from the same beach. It’s a strange twist of geography that you can see the sun rise and set on the same beach in Odisha."
+            />
             <Footer />
         </>
     );

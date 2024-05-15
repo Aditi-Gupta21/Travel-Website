@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./RegistrationForm.css"
 import { FaUser, FaLock, FaEnvelope } from 'react-icons/fa'
+import Navbar from "../component/Navbar";
 
 const RegistrationForm = () => {
   const [action, setAction] = useState('')
@@ -12,6 +13,7 @@ const RegistrationForm = () => {
   }
   return (
     <div className="RegistrationForm">
+      <Navbar />
       <div className={`wrapper ${action}`}>
         <div className="form-box login">
           <form action="">

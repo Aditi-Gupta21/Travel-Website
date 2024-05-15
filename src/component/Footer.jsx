@@ -1,4 +1,5 @@
 import "./Footer.css"
+import React from "react";
 
 function Footer() {
     return (
@@ -6,7 +7,7 @@ function Footer() {
             <div className="top">
                 <div>
                     <h1>JANAKK</h1>
-                    <p>Eat 5star Do nothing</p>
+                    <p>Dil me swadesh ...apna Uttar Pradesh</p>
                 </div>
                 <div>
                     <a href="/">

@@ -1,5 +1,5 @@
 .footer {
-    padding: 3rem 5rem;
+    padding: 1rem 6rem;
     background-color: #000;
     color: #fff;
 }
@@ -16,14 +16,25 @@
     color: #fff;
     font-size: 2rem;
     margin-left: 1rem;
+    cursor: pointer;
 }
 
-.top i:hover {
+.top h1 {
+    letter-spacing: 2px;
+}
+
+.top h1:hover {
     color: #01959a;
+    cursor: pointer;
+}
+
+.top a i:hover {
+    color: #01959a;
+    cursor: pointer;
 }
 
 .bottom {
-    padding-top: 2rem;
+    padding: 1rem 0;
     text-align: start;
     display: flex;
     justify-content: space-between;
@@ -36,8 +47,14 @@
 }
 
 .bottom h4 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     padding: 1rem 0 0.8rem 0;
+}
+
+.bottom h4:hover {
+    color: #01959a;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .bottom a {
@@ -45,6 +62,11 @@
     color: #fff;
     padding-bottom: .4rem;
     font-size: 1.1rem;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 @media screen and (max-width:850px) {
