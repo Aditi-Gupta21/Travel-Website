@@ -7,6 +7,7 @@
 
 .trip h1 {
     font-size: 3rem;
+    color: #01959a;
 }
 
 .tripCard {
@@ -47,6 +48,7 @@
 .t-card h4 {
     font-size: 1.3rem;
     padding: .9rem 0 .2rem 0;
+    color: #01959a;
 }
 
 @media screen and (max-width:850px) {

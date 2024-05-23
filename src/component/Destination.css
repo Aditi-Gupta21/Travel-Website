@@ -6,13 +6,21 @@
 
 .destination h1 {
     font-size: 3rem;
+    color: #01959a;
+    cursor: pointer;
+}
+
+p {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    word-spacing: 2px;
 }
 
 .first-desc {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 5.2rem;
 }
 
 .first-desc-reverse {
@@ -20,7 +28,7 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 5.2rem;
 }
 
 .text-desc {
@@ -30,7 +38,9 @@
 }
 
 .text-desc h2 {
-    padding-bottom: 1rem;
+    padding-bottom: .8rem;
+    color: #01959a;
+    cursor: pointer;
 }
 
 .img {
@@ -39,6 +49,7 @@
     display: flex;
     justify-content: space-between;
     z-index: -99;
+    object-fit: cover;
 }
 
 .image img {
@@ -46,8 +57,10 @@
     height: 400px;
     object-fit: cover;
     border-radius: 6px;
-    box-sizing: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
-    margin: 0px 2px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    margin: 0px 4px;
+    cursor: pointer;
+    object-fit: cover;
 }
 
 .image img:nth-child(2) {

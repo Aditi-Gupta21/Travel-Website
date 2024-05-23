@@ -24,8 +24,8 @@ function Navbar() {
                 </div>
                 <ul className={state ? "nav-menu active" : "nav-menu"}>
                     <li><Link to="/" className="nav-links"><i className="fa-solid fa-house-user"></i>Home</Link></li>
-                    <li><Link to="/about" className="nav-links"><i className="fa-solid fa-circle-info"></i>About</Link></li>
                     <li><Link to="/service" className="nav-links"><i className="fa-solid fa-briefcase"></i>Service</Link></li>
+                    <li><Link to="/about" className="nav-links"><i className="fa-solid fa-circle-info"></i>About</Link></li>
                     <li><Link to="/contact" className="nav-links"><i className="fa-solid fa-address-book"></i>Contact</Link></li>
                     <li><Link to="/regis"><button>Sign Up</button></Link></li>
                 </ul>

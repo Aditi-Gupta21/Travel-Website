@@ -1,34 +1,25 @@
+import TitleHeading from "./TitleHeading";
 import "./Trip.css"
 import React from "react";
+import TripCard from "./TripCard";
 
-function Trip(props) {
+function Trip({ image1, heading1, para1, image2, heading2, para2, image3, heading3, para3, p, h1 }) {
     return (
         <div className="trip">
-            <h1>Recent Trip</h1>
-            <p>You can discover best destination for your vacation here..</p>
-            <div className="tripCard">
-                <div className="t-card">
-                    <div className="t-image">
-                        <img src={props.image1} alt="image" />
-                    </div>
-                    <h4>{props.heading1}</h4>
-                    <p>{props.para1}</p>
-                </div>
-                <div className="t-card">
-                    <div className="t-image">
-                        <img src={props.image2} alt="image" />
-                    </div>
-                    <h4>{props.heading2}</h4>
-                    <p>{props.para2}</p>
-                </div>
-                <div className="t-card">
-                    <div className="t-image">
-                        <img src={props.image3} alt="image" />
-                    </div>
-                    <h4>{props.heading3}</h4>
-                    <p>{props.para3}</p>
-                </div>
-            </div>
+            <TitleHeading
+                h1={h1}
+                p={p}
+            />
+            <TripCard image1={image1}
+                heading1={heading1}
+                para1={para1}
+                image2={image2}
+                heading2={heading2}
+                para2={para2}
+                image3={image3}
+                heading3={heading3}
+                para3={para3}
+            />
         </div>
     )
 }
